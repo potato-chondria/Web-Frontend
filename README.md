@@ -1,4 +1,4 @@
-# django-boilerplate
+# Potato Chondria
 
 A faster way to getting started with your Django project. Have your django project up and running in no-time
 
