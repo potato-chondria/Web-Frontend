@@ -1,15 +1,44 @@
-html, body{
-	background-color: #0a192f;
+body{
+	position: relative;
 }
-
-.info{
-	margin-top: 25vh;
-	margin-left: 30%;
-	color: rgb(204, 214, 246);
-
+#map {
+	position: absolute;
+	width: 100%;
+	height: 1000px;
+	left: 1px;
+	top: 0px;
 }
+#box1 {
+	box-sizing: border-box;
+	position: absolute;
+	width: 380px;
+	height: 807px;
+	left: 37px;
+	top: 111px;
+	background: #FFFFFF;
+	border: 1px solid #FFFEFE;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 45px;
+}
+#line1{
+	position: absolute;
+	width: 378.01px;
+	height: 0px;
+	left: 38px;
+	top: 197px;
+	
+	background: #00A82F;
+	border: 1px solid #00A82F;
+	transform: rotate(0.3deg); 
+}
+#line2{
+	position: absolute;
+	width: 378.01px;
+	height: 0px;
+	left: 36px;
+	top: 624px;
 
-.info a{
-	color: rgb(100, 255, 218);
-	text-decoration: none;
+	background: #00A82F;
+	border: 1px solid #00A82F;
+	transform: rotate(0.3deg);
 }
