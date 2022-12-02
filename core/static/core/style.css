@@ -10,6 +10,12 @@ body {
 	top: 0px;
 }
 
+#map_content{
+	position: absolute;
+	z-index: 200000;
+	display: flex;
+}
+
 #box1 {
 	box-sizing: border-box;
 	position: absolute;

@@ -10,6 +10,8 @@
 <body>
    
     {% comment %} left-side-bar {% endcomment %}
+    <div id="map"></div>
+    <div id="map_content">
     <div id="box1"></div>
     <img id="knu" src="{% static 'img/KNU.png' %}" alt="KNU">
     <p id="leftBarTitle">경북대학교 배수구 지도</p>
@@ -24,10 +26,12 @@
     <div id="lMainImg">
         <img id="img" src="{% static 'img/main.png'%}" alt="Loading...">
     </div>
+    </div>
+
     {% comment %} <hr id="line2"> {% endcomment %}
 
     {% comment %} map {% endcomment %}
-    {% comment %} <div id="map"></div> {% endcomment %}
+    
    
 
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=930ea9f92215042f71616a6876e105a9"></script>
